@@ -1,5 +1,6 @@
 import './css/App.css';
 import Table from './components/Table.jsx';
+import Logo from './images/logo_small.png';
 //import Keyboard from './components/Keyboard.jsx';
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
 			<header className="border-b">
 				<div className="flex justify-between py-2">
 					<button>Info</button>
-					<h1 className="text-2xl">GREEK WORDLE</h1>
+					<img src={Logo} alt="logo" width="190"/>
 					<button>Stats</button>
 				</div>
 			</header>
