@@ -3,30 +3,11 @@
   justify-content: center;
 }
 
-.deck {
-  width: 660px;
-  height: 680px;
+.gaming-board {
+  width: 560px;
+  /*height: 680px;*/
   background: linear-gradient(160deg, #02ccba 0%, #aa7ecd 100%);
   padding: 32px;
   border-radius: 10px;
   box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.5);
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0 0 3em;
-}
-
-.deck .card {
-  height: 80px;
-  width: 80px;
-  background: #2e3d49;
-  font-size: 0;
-  color: #ffffff;
-  border-radius: 8px;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 5px 2px 20px 0 rgba(46, 61, 73, 0.5);
 }
