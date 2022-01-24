@@ -8,7 +8,6 @@ export const keys = [
   'Ι',
   'Ο',
   'Π',
-  'BACKSPACE',
   'Α',
   'Σ',
   'Δ',
@@ -18,7 +17,7 @@ export const keys = [
   'Ξ',
   'Κ',
   'Λ',
-  'ENTER',
+  'BACKSPACE',
   'Ζ',
   'Χ',
   'Ψ',
@@ -26,4 +25,5 @@ export const keys = [
   'Β',
   'Ν',
   'Μ',
+  'ENTER',
 ]
