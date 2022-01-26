@@ -2,10 +2,11 @@ import './css/App.css';
 import Table from './components/Table.jsx';
 import Logo from './images/logo_small.png';
 import Keyboard from './components/Keyboard.jsx';
+import WordProvider from './context/WordContext.jsx';
 
 function App() {
 	return (
-		<div className="text-center background h-screen">
+		<div className="text-center background h-screen relative">
 			<header>
 				<div className="flex justify-between py-2 px-2">
 					<img src={Logo} alt="logo" width="150"/>
@@ -20,12 +21,14 @@ function App() {
 				</div>
 			</header>
 
-			<main className="container mx-auto">
-				<Table/>
-				<Keyboard/>
-			</main>
+			<WordProvider>
+				<main className="md:container md:mx-auto">
+					<Table/>
+					<Keyboard/>
+				</main>
+			</WordProvider>
 
-			<footer>
+			<footer className="absolute bottom-0 w-full p-2">
 				<p>Copyright 2022</p>
 			</footer>
 		</div>
