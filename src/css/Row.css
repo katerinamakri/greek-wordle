@@ -1,13 +1,18 @@
 .card {
-  height: 80px;
-  width: 80px;
-  background: #2e3d49;
-  font-size: 0;
-  color: #ffffff;
-  border-radius: 8px;
-  cursor: pointer;
+  height: 45px;
+  width: 55px;
+  background: #fffdfb;
+  border-radius: 2px;
+  color: #454545;
   display: flex;
   justify-content: center;
   align-items: center;
   box-shadow: 5px 2px 20px 0 rgba(46, 61, 73, 0.5);
+}
+
+input {
+  height: 45px;
+  width: 55px;
+  border-radius: 2px;
+  text-align: center;
 }

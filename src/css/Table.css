@@ -1,8 +1,8 @@
 .gaming-board {
-  width: 560px;
+  width: 340px;
   /*height: 680px;*/
-  background: linear-gradient(160deg, #02ccba 0%, #aa7ecd 100%);
-  padding: 32px;
+  background: linear-gradient(160deg, #a2e5f6 0%, #ba7f8c 100%);
+  padding: 21px;
   border-radius: 10px;
   box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.5);
 }
